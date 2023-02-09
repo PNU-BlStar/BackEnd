@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&display=swap');
+
+
+.container {
+  /* background:linear-gradient( to right,#ffc9bd, #c1d3ff);   */
+   background:  linear-gradient(110deg, skyblue 65%, white 65%); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-blend-mode: luminosity;
+}
+.container svg {
+
+  width: 80%;
+  height: 300px;
+  fill: none;
+   stroke: white;
+  stroke-width: 2; 
+  text-shadow: black;
+  
+}
+
+.SLbutton{
+  margin : 100px  100px 0px 100px;
+  padding: 10px;
+  font-size: 40px;
+  background-color:unset;
+  border-radius: 30px;
+  border: none;
+  color:skyblue;
+
+  opacity: 1;
+  
+}
+.SLbutton:hover{
+ background-color:unset; 
+
+border-radius: 1px;
+color : rgb(54, 181, 240);
+
+}
+
+.joinUs{
+  margin : 50px 0px 0px 0px ;
+  padding: 10px;
+  text-align: center;
+  color:  rgb(54, 181, 240);
+  font-size: 40px;
+}
+
+.bstar{
+  font-size: 210;
+}
+
+
+
+.container svg tspan > tspan {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: -1500;
+}
+.welcome  > tspan:nth-of-type(1) {
+  animation: draw 300ms 150ms forwards;
+}
+.welcome> tspan:nth-of-type(2) {
+  animation: draw 300ms 300ms forwards;
+}
+.welcome > tspan:nth-of-type(3) {
+  animation: draw 300ms 450ms forwards;
+}
+.welcome > tspan:nth-of-type(4) {
+  animation: draw 300ms 600ms forwards;
+}
+.welcome > tspan:nth-of-type(5) {
+  animation: draw 300ms 750ms forwards;
+}
+.welcome > tspan:nth-of-type(6) {
+  animation: draw 300ms 900ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(7) {
+  animation: draw 300ms 1050ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(8) {
+  animation: draw 300ms 1200ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(9) {
+  animation: draw 300ms 1350ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(10) {
+  animation: draw 300ms 1500ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(11) {
+  animation: draw 300ms 1650ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(12) {
+  animation: draw 300ms 1800ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(13) {
+  animation: draw 300ms 1950ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(14) {
+  animation: draw 300ms 2100ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(15) {
+  animation: draw 300ms 2250ms forwards;
+}
+
+
+.bstar > tspan:nth-of-type(1){
+  animation: draw 400ms 2350ms forwards;
+}
+.bstar > tspan:nth-of-type(2){
+  animation: draw 400ms 2550ms forwards;
+}
+.bstar > tspan:nth-of-type(3){
+  animation: draw 400ms 2750ms forwards;
+}
+.bstar > tspan:nth-of-type(4){
+  animation: draw 400ms 2950ms forwards;
+}
+.bstar > tspan:nth-of-type(5){
+  animation: draw 400ms 3050ms forwards;
+}
+
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

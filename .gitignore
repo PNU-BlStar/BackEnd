@@ -1,0 +1,8 @@
+HELP.md
+.gradle
+.idea
+application-oauth.properties
+# 프로젝트 제외 경로
+/build/
+/build/classes/java/main/
+/build/classes/java/test/
